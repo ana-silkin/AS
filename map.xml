@@ -1,0 +1,13 @@
+<Map>
+    <System>
+        <Elements>
+            <Pipe id="P1" row="1" column="2" isBroken="false" hasWater="true" connectedPipe1="P2" connectedPipe2="S1"/>
+            <Pipe id="P2" row="1" column="3" isBroken="false" hasWater="true" connectedPipe1="P1" connectedPipe2="P3"/>
+            <Pipe id="P3" row="2" column="3" isBroken="false" hasWater="false" connectedPipe1="P2" connectedPipe2="PU1"/>
+            <Pump id="PU1" row="3" column="3" inputPipe="P3" outputPipe="P4" isBroken="false" isTankFull="false"/>
+            <Pipe id="P4" row="4" column="3" isBroken="false" hasWater="false" connectedPipe1="PU1" connectedPipe2="C1"/>
+            <Cistern id="C1" row="5" column="3" cisternVolume="100" inputPipe="P4"/>
+            <Spring id="S1" row="0" column="2" outputPipe="P1"/>
+        </Elements>
+    </System>
+</Map>

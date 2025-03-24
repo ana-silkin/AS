@@ -1,0 +1,9 @@
+adding new function to make move easier in position add getElement() and add canMove in element and ovveride it in activelement and in pipe
+make timer not singleton in order to have one object that has global timer and one that counts the turn time
+add position element and eleemtn in position and funxtion to get element given teh position and vice versa for movement and placment of elemetns
+in start game give amount of second to timer for gloabl timer
+during each turn start the timer with turn time and count down
+make isBroken element fucntion in order to use it with element e wihtout casting for pumps and pipes
+
+
+w
